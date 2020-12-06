@@ -1,0 +1,19 @@
+programa {
+	funcao inicio() {
+		
+		cadeia mae = "Tess"
+		cadeia filha = "Anna"
+		
+		escreva("_____________________________________\n")
+		escreva("Antes de comerem o biscoito da sorte: \n")
+		escreva("         Mãe = ", mae, "\n", "         Filha = ", filha)
+		
+		cadeia inversao1 = mae = filha
+		cadeia inversao2 = filha = mae 
+		
+		escreva("\n======================================\n") 
+		escreva("Depois de comerem o biscoito da sorte: \n")
+		escreva("         Mãe = ", inversao1, "\n", "         Filha = ", inversao2 )
+		escreva("\n______________________________________")
+	}
+}
